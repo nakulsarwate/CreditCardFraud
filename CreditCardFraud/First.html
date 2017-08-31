@@ -1,0 +1,46 @@
+﻿<html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href="./font-awesome.min.css" rel="stylesheet">
+
+
+
+	</head><body background="test.jpg">
+	<center>
+    <div id="login-overlay" class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Account Login</h4>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+              <center>
+                  <div class="col-xs-12">
+                      <div class="well">
+                          <form id="loginForm" method="POST" action="P1.jsp" novalidate="novalidate">
+                              <div class="form-group">
+                                  <label for="username" class="control-label">Username:</label>
+                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter your username" placeholder="">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" class="control-label">Password:</label>
+                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <span class="help-block"></span>
+                              </div>
+                              <br>
+                              <button type="submit" class="btn btn-success btn-block">Login</button>
+                          </form>
+                      </div>
+                  </div>
+                  </center>
+              </div>
+          </div>
+      </div>
+  </div>
+</center>
+</body></html>
